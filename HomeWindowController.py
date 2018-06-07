@@ -234,7 +234,7 @@ class HomeWindowController(Gtk.Window):
             resLogs = DataManager().delete("logs", row["id"])
         
         self.userIdToEdit = None
-        if resUser["result"] == True and resLogs["result"] == True:
+        if resUser["result"] == True:
             self.showAlertPanel("User Deleted !",2)
         
 
