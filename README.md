@@ -23,7 +23,6 @@ sudo python3 timeatt.py
 - disable automatic showing options when removable media are insered<br>
 - disable monitor in stop timeout<br>
 - autorun app on startup:<br>
-- autorun app on startup:<br>
   <p>  sudo nano ~/.config/lxsession/LXDE-pi/autostart</p>
   <p>  add: "@lxterminal -e /home/pi/time-attendence/start.sh" and save</p>
   <p>  sudo chmod +x /home/pi/time-attendence/start.sh</p>
