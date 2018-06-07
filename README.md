@@ -20,3 +20,10 @@ clone whole repository<br>
 cd time-attendence<br>
 sudo python3 timeatt.py
 <h4>tips:</h4>
+- disable automatic showing options when removable media are insered<br>
+- disable monitor in stop timeout<br>
+- autorun app on startup:<br>
+- autorun app on startup:<br>
+  <p>  sudo nano ~/.config/lxsession/LXDE-pi/autostart</p>
+  <p>  add: "@lxterminal -e /home/pi/time-attendence/start.sh" and save</p>
+  <p>  sudo chmod +x /home/pi/time-attendence/start.sh</p>
