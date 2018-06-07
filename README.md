@@ -16,6 +16,6 @@ sudo pip3 install evdev<br>
 <h3>installation :</h3>
 create "time-attendence" folder in /home/pi<br>
 clone whole repository<br>
-launch:<br>
+<h4>launch:</h4>
 cd time-attendence<br>
 sudo python3 timeatt.py
