@@ -41,7 +41,6 @@ class DataManager(object):
         result = self.data[node]
         if queryRequest == {} or queryRequest == None:
             return {node : result}
-        print("trovata una query")
         n_req = len(queryRequest)
         query_res = []
         for row in result:
