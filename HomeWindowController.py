@@ -254,7 +254,10 @@ class HomeWindowController(Gtk.Window):
         elif pageIndex == 2: #user table page
             self.builder.get_object("barLoadUsers").set_visible(True)
             userModel.clear()
-            val = 1 / len(users["users"])
+            if len(users["users"]) == 0:
+                val = 1
+            else:
+                val = 1 / len(users["users"])
             currVal = val
             for user in users["users"]:
                 userName = user["name"]
