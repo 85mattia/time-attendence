@@ -1,5 +1,9 @@
 # time-attendence
 
+time-attendence is a Gui application for Raspberry Pi to to stamp the RFID cards.
+Work with every usb RFID card reader (working like a keyboard). 10 digits.
+
+
 <h3>required modules installation:</h3>
 
 sudo apt-get install libgtk-3-dev <br>
