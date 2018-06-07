@@ -1,0 +1,46 @@
+
+.label-orario{
+	font-size: 150px;
+	color: #c32bff;
+}
+.radious-button{
+	border-radius: 15px;
+}
+.button-inout{
+	font-size: 60px;
+	font-weight: bold;
+}
+.below-buttons{
+	font-size: 35px;
+}
+
+.menu-buttons{
+	font-size: 40px;
+	color: #0000ff;
+}
+.buttons{
+	font-size: 25px;
+}
+.labels{
+	font-size: 30px;
+}
+.spin-button{
+	font-size: 35px;
+}
+.combo-box{
+	font-size: 35px;
+}
+.color-white{
+	background-color: #ffffff;
+}
+.table-cont{
+	font-size: 30px;
+}
+.green-button{
+	background-image: none;
+    	background-color: #a3ffa3;
+}
+.red-button{
+	background-image: none;
+    	background-color: #ff9393;
+}
