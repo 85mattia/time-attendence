@@ -660,7 +660,10 @@ class HomeWindowController(Gtk.Window):
         nonSortedLogs = DataManager().get_node("logs")["logs"]
         logs = sorted(nonSortedLogs, key=lambda k: dateutil.parser.parse(k["dateTime"]), reverse=True)
         users = DataManager().get_node("users")
-        val = 1 / len(logs)
+        if len(logs) == 0:
+            val = 1
+        else:
+            val = 1 / len(logs)
         currFrac = val
         if id == None:
             for log in logs:
