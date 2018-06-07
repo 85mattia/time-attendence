@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=engine dashboard
-Comment=nessuno
-Exec=sudo python3 /home/pi/engine-dashboard/gui-controller.py
-Path=/home/pi/engine-dashboard/
-Terminal=true
-Type=Application
-Categories=None;
