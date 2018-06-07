@@ -19,3 +19,4 @@ clone whole repository<br>
 <h4>launch:</h4>
 cd time-attendence<br>
 sudo python3 timeatt.py
+<h4>tips:</h4>
