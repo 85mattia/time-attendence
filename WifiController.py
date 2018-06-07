@@ -188,7 +188,7 @@ class WifiWindowController(Gtk.Window):
                 for i in range(ssidInd, len(fileStr)):
                     if fileStr[i] == "}":
                         endInd = i + 1
-                        break
+                        break   
                 if startInd != None and endInd != None:
                     fileStr = fileStr.replace(fileStr[startInd : endInd], "")
 
