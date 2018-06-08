@@ -6,7 +6,7 @@ Works with every usb RFID card reader (working like a keyboard). 10 digits.
 - create/edit users with own tag card and unique ID number<br>
 - authorized manager can enter to the menu system<br>
 - IN or OUT validation system<br>
-- esport data logs by usb download or rest API<br>
+- esport data logs by usb download or rest API <a href="https://github.com/85mattia/time-attendence/wiki">Wiki</a><br>
 - view all users Logs or single user Logs<br>
 - touch friendly interface:<br>
 <img src="https://www.mediafire.com/convkey/2a9a/g6b862afqplsrp06g.jpg" width="50%" height="50%">
